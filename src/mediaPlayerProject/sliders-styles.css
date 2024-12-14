@@ -1,0 +1,80 @@
+/* Volume Control Slider */
+.slider {    
+    /* Customize the thumb (handle) color */
+    -fx-thumb-color: #946a4d; /* White thumb color */
+
+    /* Customize the thumb size (optional) */
+    -fx-thumb-size: 15px; /* Adjust the size as desired */
+
+    /* Other properties you can customize:
+       -fx-border-color: #c17d08; (border color)
+       -fx-track-height: 6px; (track height)
+       -fx-border-width: 1px; (border width)
+       -fx-border-radius: 12px; (border radius)
+    */
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+/* Window Background */
+.root {
+    -fx-background-color: #f9f3ec;
+}
+
+/* Window Title Bar */
+.window-title-bar {
+    -fx-background-color: #946a4d;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Window Buttons (Minimize, Maximize, Close) */
+.window-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.window-button:hover {
+    -fx-background-color: #d3b8a3;
+}
+
+/* Window Border */
+.window-border {
+    -fx-border-color: #946a4d;
+    -fx-border-width: 2px;
+}
+
+/* Window Resizer */
+.window-resize-corner {
+    -fx-background-color: #946a4d;
+    -fx-cursor: se-resize;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Button Style */
+.button {
+    -fx-background-color: #946a4d; /* Dark brown similar to your window title bar */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-cursor: hand; /* Cursor style on hover */
+}
+
+.button:hover {
+    -fx-background-color: #d3b8a3; /* Lighter brown on hover */
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------*/
+
